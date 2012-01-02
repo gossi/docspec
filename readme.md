@@ -90,6 +90,7 @@ The docspec should be saved as JSON. Here is a first draft as a basis for discus
 
 ##STRUCT_CONTENTS
 {
+
 	variables: [VARIABLE, VARIABLE, ..],
 	constants: [VARIABLE, VARIABLE, ..],
 	methods:  [FUNCTION, FUNCTION, ..]
@@ -118,6 +119,7 @@ The docspec should be saved as JSON. Here is a first draft as a basis for discus
 
 ##COMMON
 {
+
 	// identification
 	name: "a name identifier"
 	qname: QNAME,
