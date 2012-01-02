@@ -1,5 +1,5 @@
 # DocSpec
-The docspec is an interoperable specification for documenting tools like JavaDoc. These tools normally work in 3 steps:
+The docspec is a specification for an interoperable file format that documenting tools, like JavaDoc, can use. These tools normally work in 3 steps:
 
 1. Parsing the code mapping docblocks to code
 2. Generate an abstract format with the contents for the documentation
