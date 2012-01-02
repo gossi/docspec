@@ -130,10 +130,7 @@ The docspec should be saved as JSON. Here is a first draft as a basis for discus
 	description: "a long description ",
 
 	// visibility
-	private: boolean,
-	public: boolean,
-	protected: boolean,
-	package: boolean,
+	visibility: "private|protected|public|package",
 
 	// modifiers
 	static: boolean,
