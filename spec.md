@@ -35,6 +35,7 @@ The docspec should be saved as JSON. Here is a first draft as a basis for discus
 
 ##FILE
 	{
+	    into: DESCRIPTION,
 	    description: DESCRIPTION,
 	    version: "$Id: 123 [..]$|0.9.5.2",
 	    license: LICENSE,
