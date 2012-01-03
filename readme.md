@@ -16,7 +16,7 @@ The docspec is the output of the second step. This would decouple the parsing st
 none yet, yay this is totally new. If you are a doctool author and have interesst in implementing the docspec, feel free to fork this file and add yourself.
 
 - [phpdoctor](https://github.com/peej/phpdoctor) [Language: PHP]  
-  See issue: peej/phpdoctor#58
+  See issue: https://github.com/peej/phpdoctor/issues/58
 
 ## History
 2012-01-02 Created first draft version
