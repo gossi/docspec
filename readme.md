@@ -15,11 +15,17 @@ The docspec is the output of the second step. This would decouple the parsing st
 ## Participating Doctools
 none yet, yay this is totally new. If you are a doctool author and have interesst in implementing the docspec, feel free to fork this file and add yourself.
 
+- [phpdoctor](https://github.com/peej/phpdoctor) [Language: PHP]  
+  See issue: peej/phpdoctor#58
+
 ## History
 2012-01-02 Created first draft version
 
 ## Resources
 - [My Blog Post](http://gos.si/blog/docspec-as-interoperable-file-format-between-doctools)
+- [PSR](https://github.com/docblox/docblox/blob/master/docs/PSR.md) (PSR = PHP Standards RFC, it is a form of RFC for the PHP Standards Group)  
+  Demo at: http://demo.docblox-project.org/default/structure.xml
+
 
 
 
