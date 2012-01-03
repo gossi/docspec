@@ -1,0 +1,67 @@
+{
+  config: {
+    name: "gara - Javascript Toolkit",
+    url: "http://github.com/gara/gara",
+    description: "A Javascript Toolkit to build webapps",
+    authors: [{
+      name: "Thomas Gossmann",
+      url: "http://gos.si"
+    }],
+    license: "LGPL",
+    markup: "html",
+    namespace: "module",
+    namespacedelimiter: ".",
+    language: "coffeescript"
+  },
+  namespaces: {
+    "gara.widgets": {
+      description: "The toolkit's widget package"
+    }
+  },
+  "gara/widgets/List.coffee" : {
+    classes: [
+      "gara.widgets.List": {
+        qname: "gara.widgets.List",
+        name: "List",
+        namespace: "gara.widgets",
+        "extends": ["gara.widgets.Scrollable"],
+        "mixins": ["gara.widgets.Selection"],
+        constructors: {
+          "gara.widgets.List#constructor": {
+            qname: "gara.widgets.List#constructor",
+            params: {
+              "parent": {
+                name: "parent",
+                type: "gara.widgets.Composite|HTMLElement",
+                description: "The parent for the widget"
+              },
+              "config": {
+                "multi": {
+                  type: "boolean",
+                  default: "false",
+                  description: "Wether multi selection is possible or not"
+                },
+                "check": {
+                  type: "boolean",
+                  default: "false",
+                  description: "Wether checkboxes are on or not"
+                }
+              }
+            }
+          }
+        },
+        methods: {
+          "gara.widgets.List#getItems": {
+            qname: "gara.widgets.List#getItems",
+            name: "getItems",
+            description: "Returns an array with all the items in the list",
+            returns: {
+              type: "gara.widgets.ListItem[]",
+              description: "the array with the items"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
